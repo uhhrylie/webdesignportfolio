@@ -1,4 +1,5 @@
 # Instructions  
+[Instructions have Moved Here](https://iacs-cs.github.io/web-design-instructions/portfolio-project/p3-instructions.html)
 
 [Assignment](https://docs.google.com/document/d/1uJPrPDBYHn_JbXUA_jxgucWGt-k7jyNrDXl6XWkTM5o/edit)
 

@@ -1,4 +1,84 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,500&display=swap')
+.page-wrapper{max-width: 900px;
+  margin: auto;}
+body {background-color: #141500;
+      padding-top: 100px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 100px;
+      font-family: 'Spectral', serif;
+      color:#EFDECD;
+      }
+.title {
+  animation: colorchange 1s infinite;
+}
+@keyframes colorchange {
+  0% {
+    color: #927f58;
+  }
+  50% {
+    color: #c2c59b;
+  }
+  100% {
+    color: #5d4a41;
+  }
+}
+title {
   height: 100%;
   width: 100%;
+  font-family: 'Spectral', serif;
 }
+h1{font-size: 40px;
+  font-weight: bolder;}
+.flower{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url(flower.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main div h3{
+  font-size: 25px;
+  text-decoration: underline;
+  font-style: italic;
+  -webkit-text-stroke: #3b3e02;
+}
+
+
+aside .wrapper {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3b3e02;
+    color: #EFDECD;
+    text-align: center;
+    font-weight: bold;
+    height:70px;
+    justify-content: space-evenly;
+    -webkit-text-stroke: px #141500;
+  }
+  nav a {
+    text-decoration: none;
+    color: #EFDECD;
+    padding: 20px 16px;
+  }
+  nav a:hover {
+    background-color: #141500;
+}
+aside ul{
+  transform: translateY(-100%);
+  transition: all 300ms;
+  opacity: 0;
+  pointer-events: none; /* Can't be clicked */
+  list-style: none;
+  }
+aside div div.active ul{
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+  background-color: #3B3E02;
+                    }
+
