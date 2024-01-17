@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,500&display=swap');
+
 .page-wrapper{max-width: 900px;
   margin: auto;}
 body {background-color: #141500;
@@ -45,7 +46,23 @@ main div h3{
   -webkit-text-stroke: #3b3e02;
 }
 
-
+.h1 {
+  position: relative;
+}
+.h1 span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes h1 {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
 aside .wrapper {
     position: fixed;
     display: flex;

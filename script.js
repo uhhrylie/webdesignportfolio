@@ -1,10 +1,9 @@
-
 const navLinks = document.querySelectorAll('aside div div h3');
 navLinks.forEach(link => {
   // for each nav link...
   link.addEventListener('click', function(event) {
     // don't do the default behavior
-    event.preventDefault();
+    //event.preventDefault();
     // First select all aside div divs
     // and remove the active class
     // so the other menus close
